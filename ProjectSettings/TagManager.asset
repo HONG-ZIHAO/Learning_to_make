@@ -53,6 +53,12 @@ TagManager:
   - name: "\u68AF\u5B50"
     uniqueID: 2124470979
     locked: 0
-  - name: New Layer
+  - name: Ground
     uniqueID: 3848319621
+    locked: 0
+  - name: Player
+    uniqueID: 502065607
+    locked: 0
+  - name: Door
+    uniqueID: 2870166857
     locked: 0
