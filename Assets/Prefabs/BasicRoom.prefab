@@ -180,7 +180,7 @@ SpriteRenderer:
   m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 1602141735546293391, guid: 1c351ba5ca741ba41a28238c18530347, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -259,6 +259,7 @@ MonoBehaviour:
   roomDown: 0
   text: {fileID: 919862037661201950}
   stepToStart: 0
+  doorNumber: 0
 --- !u!1 &1975360421521874912
 GameObject:
   m_ObjectHideFlags: 0
