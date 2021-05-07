@@ -20,7 +20,7 @@ public class RoomGenerator : MonoBehaviour
     public LayerMask roomLayer;
 
     public int maxStep;
-
+    //将Room的代码在这个代码里面实例化
     public List<Room> rooms = new List<Room>();
     //记录最远房间的列表
     List<GameObject> farRooms = new List<GameObject>();
@@ -56,10 +56,10 @@ public class RoomGenerator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.anyKey)
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        }
+        //if (Input.anyKey)
+        //{
+        //    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        //}
     }
 
     public void ChangePointPos()
@@ -90,7 +90,7 @@ public class RoomGenerator : MonoBehaviour
         newRoom.roomDown = Physics2D.OverlapCircle(roomPosition + new Vector3(0, -yOffset, 0), 0.2f, roomLayer);
         newRoom.roomLeft = Physics2D.OverlapCircle(roomPosition + new Vector3(-xOffset, 0, 0), 0.2f, roomLayer);
         newRoom.roomRight = Physics2D.OverlapCircle(roomPosition + new Vector3(xOffset, 0, 0), 0.2f, roomLayer);
-        newRoom.UpdateRoom();
+        newRoom.UpdateRoom(xOffset, yOffset);
         //通过开口数量和开口方向判断使用何种墙壁
         switch (newRoom.doorNumber)
         {

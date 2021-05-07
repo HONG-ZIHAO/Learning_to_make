@@ -1,0 +1,8 @@
+
+=== Fri May  7 16:21:47 2021
+
+Packages were changed.
+Update Mode: resetToDefaultDependencies
+
+The following packages were removed:
+  com.unity.2d.sprite@1.0.0
