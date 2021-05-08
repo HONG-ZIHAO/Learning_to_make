@@ -38,6 +38,17 @@ public class Room : MonoBehaviour
             doorNumber++;
 
     }
+    /// <summary>
+    /// 如果玩家碰撞了新的房间的碰撞体，则把新的房间的transform传送给相机控制代码的ChangeTarget函数中去
+    /// </summary>
+    /// <param name="collision"></param>
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            CameraController.instance.ChangeTarget(transform);
+        }
+    }
 
 
 }
