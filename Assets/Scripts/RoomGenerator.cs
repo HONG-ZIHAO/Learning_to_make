@@ -18,6 +18,8 @@ public class RoomGenerator : MonoBehaviour
     public float xOffset;
     public float yOffset;
     public LayerMask roomLayer;
+    public GameObject gameOver;
+
 
     public int maxStep;
     //将Room的代码在这个代码里面实例化
@@ -49,6 +51,7 @@ public class RoomGenerator : MonoBehaviour
         }
         FindEndRoom();
 
+        Instantiate(gameOver, endRoom.transform.position, Quaternion.identity);
         endRoom.GetComponent<SpriteRenderer>().color = endColor;
 
     }

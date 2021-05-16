@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/china_unity/release' branch; Version is '2020.3.4f1c1 (3d27070cb163) revision 4007687'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.928; Version 2009; 64bit' Language: 'zh' Physical Memory: 16332 MB
+OS: 'Windows 10 Home; OS build 19042.985; Version 2009; 64bit' Language: 'zh' Physical Memory: 16332 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,7 +15,7 @@ E:/project file/Learning_to_make
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62763
+59796
 Successfully changed project path to: E:/project file/Learning_to_make
 E:/project file/Learning_to_make
 Using Asset Import Pipeline V2.
@@ -35,505 +35,1232 @@ Initialize mono
 Mono path[0] = 'E:/2020.3.4f1c1/Editor/Data/Managed'
 Mono path[1] = 'E:/2020.3.4f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'E:/2020.3.4f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56240
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56444
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/2020.3.4f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: E:/2020.3.4f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003490 seconds.
+Registered in 0.002511 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 34.29 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 33.05 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.836 seconds
+- Completed reload, in  0.736 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000643 seconds.
+Registered in 0.000735 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.774 seconds
+- Completed reload, in  0.711 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1199 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 66.3 MB.
-System memory in use after: 66.3 MB.
+Unloading 1202 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.4 MB.
+System memory in use after: 66.4 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1646.
-Total: 1.746000 ms (FindLiveObjects: 0.202000 ms CreateObjectMapping: 0.031500 ms MarkObjects: 1.432800 ms  DeleteObjects: 0.078200 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Prefabs/BasicRoom.prefab
-  artifactKey: Guid(c659b761934cf55498e6fb235797f2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/BasicRoom.prefab using Guid(c659b761934cf55498e6fb235797f2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d09b1e9b4f84517b0e873ab34f717fc') in 0.117326 seconds
-  Import took 0.120482 seconds .
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1649.
+Total: 1.918400 ms (FindLiveObjects: 0.178600 ms CreateObjectMapping: 0.032600 ms MarkObjects: 1.629800 ms  DeleteObjects: 0.076500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 233.918881 seconds.
-  path: Assets/Scripts/CameraController.cs
-  artifactKey: Guid(a6261285e3eb3ac46969bfe030fb8546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/CameraController.cs using Guid(a6261285e3eb3ac46969bfe030fb8546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '414f056a0ce36f31758f6686b863b249') in 0.008989 seconds
-  Import took 0.012047 seconds .
+  path: Assets/Scenes/Start.unity
+  artifactKey: Guid(794a47e8b50f2f048b9206069773fe7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Start.unity using Guid(794a47e8b50f2f048b9206069773fe7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca8493a8392af0895ddacbaba2ae4ac6') in 0.010485 seconds
+  Import took 0.013811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.492670 seconds.
+  path: Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Texture
+  artifactKey: Guid(4fb7661537e28884697bca33184bdaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Texture using Guid(4fb7661537e28884697bca33184bdaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '424d82fbd089fb2c618241f66d2cdc79') in 0.004463 seconds
+  Import took 0.007400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.079565 seconds.
+  path: Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Background Grid.png
+  artifactKey: Guid(4525736a9d0538940bce8f13f1227b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Background Grid.png using Guid(4525736a9d0538940bce8f13f1227b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '924064ef4dceb0093f90fe2fa3228b18') in 0.114761 seconds
+  Import took 0.117725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Particle Flame.png
+  artifactKey: Guid(cfcfd3af954eeb54cb041fe6d75a983b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Particle Flame.png using Guid(cfcfd3af954eeb54cb041fe6d75a983b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73932f6e036b37e8636e845642e8fe3d') in 0.020863 seconds
+  Import took 0.023585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground.png
+  artifactKey: Guid(bb35af95735851440927571ef230221b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground.png using Guid(bb35af95735851440927571ef230221b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0230d8fb6a988a82cee08111aa677c92') in 0.095389 seconds
+  Import took 0.097754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16cd69c35449d213b6211487ebccf971') in 0.262991 seconds
+  Import took 0.266288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground Darken.png
+  artifactKey: Guid(157cbc340d2b7e64ab85168e80e95550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground Darken.png using Guid(157cbc340d2b7e64ab85168e80e95550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '833394027c0af24e4456d559748ebb19') in 0.061055 seconds
+  Import took 0.063660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.632073 seconds.
+  path: Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Scene
+  artifactKey: Guid(3e5bc175231773446846774743597c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Scene using Guid(3e5bc175231773446846774743597c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56317d8b5bd73fec19527402c3977f70') in 0.002574 seconds
+  Import took 0.005203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.175185 seconds.
+  path: Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette
+  artifactKey: Guid(ffa1277bff802794d811d96630d14d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette using Guid(ffa1277bff802794d811d96630d14d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af461d313c406649d6201ec228b14b95') in 0.001994 seconds
+  Import took 0.006477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.075585 seconds.
+  path: Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken.prefab
+  artifactKey: Guid(027db5ce1ff2f4142b49c3de3b59625a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken.prefab using Guid(027db5ce1ff2f4142b49c3de3b59625a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba91fdf6891b397ec286fb9df077b716') in 0.010315 seconds
+  Import took 0.012992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground.prefab
+  artifactKey: Guid(a657d1104ca50f54dac2bf8d3d8e9898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground.prefab using Guid(a657d1104ca50f54dac2bf8d3d8e9898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b699415facb1c2d3eb23262346ef35fe') in 0.004196 seconds
+  Import took 0.006602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.213266 seconds.
+  path: Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken
+  artifactKey: Guid(0342b4881245d184c837b80b9af11220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken using Guid(0342b4881245d184c837b80b9af11220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b961fb17563eee6e8f6bec8c3ebc0cf9') in 0.002289 seconds
+  Import took 0.004722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.203232 seconds.
+  path: Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken B.asset
+  artifactKey: Guid(04703ecd71c459d40b639601f104c141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken B.asset using Guid(04703ecd71c459d40b639601f104c141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f6f646715f2cca5da4a07c0d1504131') in 0.013146 seconds
+  Import took 0.015963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken BR.asset
+  artifactKey: Guid(b9ddae269c2e465418c05f95e0a00a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken BR.asset using Guid(b9ddae269c2e465418c05f95e0a00a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c195571f0d0001f5bb4ee0e7e74509c5') in 0.006045 seconds
+  Import took 0.008507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Row M.asset
+  artifactKey: Guid(3d362e8338b3811489ce6689782cde87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Row M.asset using Guid(3d362e8338b3811489ce6689782cde87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd42ba882f58e4690d8e72f82d1db22ff') in 0.005620 seconds
+  Import took 0.008131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken T.asset
+  artifactKey: Guid(129b8d44277e04a4da2aaaef6c4fb58e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken T.asset using Guid(129b8d44277e04a4da2aaaef6c4fb58e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b507c91962fe0be345d2362f33ec441d') in 0.007667 seconds
+  Import took 0.010295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Slope X2 R 4.asset
+  artifactKey: Guid(8bd0fa5ad4c00df44b3a21e5a40ead35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Slope X2 R 4.asset using Guid(8bd0fa5ad4c00df44b3a21e5a40ead35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2591eb791b1fba087762ff58b26b773') in 0.006806 seconds
+  Import took 0.009313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Row R.asset
+  artifactKey: Guid(78583234e7a00984788481c8927df2cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Row R.asset using Guid(78583234e7a00984788481c8927df2cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b1e27c573aef2a86470536ef6f23f18') in 0.010596 seconds
+  Import took 0.013027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Slope X1 R T.asset
+  artifactKey: Guid(01efbecf7f976bd4e843c7596abff477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Slope X1 R T.asset using Guid(01efbecf7f976bd4e843c7596abff477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6544b6a7661b616e23e928fc60fc89d2') in 0.011630 seconds
+  Import took 0.014030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Col M.asset
+  artifactKey: Guid(4f6684df7d869c347b9b3fe1c2c0a922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Col M.asset using Guid(4f6684df7d869c347b9b3fe1c2c0a922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '114e4ae2826ea20e6c883a5e1f8235cc') in 0.008632 seconds
+  Import took 0.010989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken TL.asset
+  artifactKey: Guid(986ccee9a7cef0d408ccc4216da61ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken TL.asset using Guid(986ccee9a7cef0d408ccc4216da61ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b738f773e8dff5dcfe120dca1172548b') in 0.005770 seconds
+  Import took 0.008160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken C T.asset
+  artifactKey: Guid(9e4f4955b20ae3743891a92c391e1e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken C T.asset using Guid(9e4f4955b20ae3743891a92c391e1e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58366bbb69e1993a18f9537fd2adb6de') in 0.005305 seconds
+  Import took 0.007952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Slope X1 L B.asset
+  artifactKey: Guid(c5cc3a278e8f83449a6d275c25b6ecd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Slope X1 L B.asset using Guid(c5cc3a278e8f83449a6d275c25b6ecd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '929141561af7c87468637ec93c5e8034') in 0.005524 seconds
+  Import took 0.007710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken C B.asset
+  artifactKey: Guid(a1995557339b40048af5968ac1a8ceef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken C B.asset using Guid(a1995557339b40048af5968ac1a8ceef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3736c86a9fc384d9b72b3b86b48886c') in 0.005566 seconds
+  Import took 0.007890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken M.asset
+  artifactKey: Guid(2d016263d32ddfd4daf46c0ddeeeaa2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken M.asset using Guid(2d016263d32ddfd4daf46c0ddeeeaa2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47647259e2d28f351669dc4f05602668') in 0.005277 seconds
+  Import took 0.007940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Row L.asset
+  artifactKey: Guid(1f37ec1bd73d7344b8b72ec59262c115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Row L.asset using Guid(1f37ec1bd73d7344b8b72ec59262c115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd5347dc4ac85c7b15a12da717aa5003') in 0.006526 seconds
+  Import took 0.009226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Slope X2 L 4.asset
+  artifactKey: Guid(740f99afb7ff35841a8bf440e275acd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Slope X2 L 4.asset using Guid(740f99afb7ff35841a8bf440e275acd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad7d6c828b8b075fd5280efe84d754aa') in 0.005217 seconds
+  Import took 0.007822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken C R.asset
+  artifactKey: Guid(73ff3bb3a8ca70943a2ea71c31a5ab21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken C R.asset using Guid(73ff3bb3a8ca70943a2ea71c31a5ab21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8b27a83f96c1a015e844fd85b0b84b9') in 0.005078 seconds
+  Import took 0.007314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken C BL.asset
+  artifactKey: Guid(76cea99b4cba32441b73f1c00305f640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken C BL.asset using Guid(76cea99b4cba32441b73f1c00305f640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a42d56dc5a303164f5c2e5db8301943b') in 0.005230 seconds
+  Import took 0.007946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Slope X2 L 1.asset
+  artifactKey: Guid(a3ca319545d544b4c8a8934870557d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Slope X2 L 1.asset using Guid(a3ca319545d544b4c8a8934870557d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e0b923257ce58f3f2b321560f0f73d5') in 0.005123 seconds
+  Import took 0.007454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken C L.asset
+  artifactKey: Guid(a36a794465e826449b1f38963ed245e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken C L.asset using Guid(a36a794465e826449b1f38963ed245e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c55d23d68a2090755cdd6d9282ecc2') in 0.004915 seconds
+  Import took 0.006805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken C TL.asset
+  artifactKey: Guid(98db5c1a1660fdd478bf9cd37af282d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken C TL.asset using Guid(98db5c1a1660fdd478bf9cd37af282d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10f3357cc31ac26bcfe0248b0388b7cc') in 0.005163 seconds
+  Import took 0.007595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Col B.asset
+  artifactKey: Guid(dae2532d28d98304299922149008a2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Col B.asset using Guid(dae2532d28d98304299922149008a2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de6c9114eabef2a05a81db523c2b8ed0') in 0.005190 seconds
+  Import took 0.007539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken S.asset
+  artifactKey: Guid(1b5a4b556d5541d4391a4cdb597a8a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken S.asset using Guid(1b5a4b556d5541d4391a4cdb597a8a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d973ac3ea6db20918e5323b45242df9') in 0.004844 seconds
+  Import took 0.007700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Slope X2 R 3.asset
+  artifactKey: Guid(46194387393705e41b326eb989b3c125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Slope X2 R 3.asset using Guid(46194387393705e41b326eb989b3c125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9a204884fca4c791c9dd167e64ce75c') in 0.004697 seconds
+  Import took 0.006769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Slope X1 L T.asset
+  artifactKey: Guid(ee8ba4d11c1e64140b82b73847b08a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Slope X1 L T.asset using Guid(ee8ba4d11c1e64140b82b73847b08a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b274354759b06c2529dad9fe3af2efcd') in 0.005444 seconds
+  Import took 0.008014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Slope X1 R B.asset
+  artifactKey: Guid(77f8a7c8975d48e4c882c5af70fb8259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Slope X1 R B.asset using Guid(77f8a7c8975d48e4c882c5af70fb8259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4b3f8b4048e63c2d55e2b4e39dd362c') in 0.004745 seconds
+  Import took 0.006791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Slope X2 R 2.asset
+  artifactKey: Guid(f1b197e49dd029848956b99cd39beffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Slope X2 R 2.asset using Guid(f1b197e49dd029848956b99cd39beffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17d614a003e2ef99c8698b44d8f1c27f') in 0.005188 seconds
+  Import took 0.007670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Slope X2 R 1.asset
+  artifactKey: Guid(2ca2bc04a3688dc4ab41ad06bfc2445b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Slope X2 R 1.asset using Guid(2ca2bc04a3688dc4ab41ad06bfc2445b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '609a397f98f085be87cf4f53b366d1e4') in 0.005157 seconds
+  Import took 0.007887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken TR.asset
+  artifactKey: Guid(1c7a21ca0aaa9b94282b12f5a5709695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken TR.asset using Guid(1c7a21ca0aaa9b94282b12f5a5709695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '149823e65e2cec3a3a1262bcc5a451ef') in 0.005437 seconds
+  Import took 0.007841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Col T.asset
+  artifactKey: Guid(55b43c087af44f64588378eb5f5304d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Col T.asset using Guid(55b43c087af44f64588378eb5f5304d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '576373237c9134235282d6704fb75b0b') in 0.005100 seconds
+  Import took 0.007152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Slope X2 L 3.asset
+  artifactKey: Guid(cd69dadac56951c4cb33d79d0d99fbd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Slope X2 L 3.asset using Guid(cd69dadac56951c4cb33d79d0d99fbd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fc868251636b17cbb77a76625072b0f') in 0.004854 seconds
+  Import took 0.007414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken BL.asset
+  artifactKey: Guid(04a5deedc6a0b614385e280ca3344d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken BL.asset using Guid(04a5deedc6a0b614385e280ca3344d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc906b53986d7b6bf336ecdfd1181272') in 0.004969 seconds
+  Import took 0.007454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken C BR.asset
+  artifactKey: Guid(ffa1d554ba49dbc4a8aacb2c90fe4b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken C BR.asset using Guid(ffa1d554ba49dbc4a8aacb2c90fe4b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aef3d35ed920465bc3cbe52135cda43') in 0.005199 seconds
+  Import took 0.007517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken C TR.asset
+  artifactKey: Guid(03e01936ed1ce454a9c0b0dc184da554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken C TR.asset using Guid(03e01936ed1ce454a9c0b0dc184da554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '666586b682ad7734ad5156fef4656c0c') in 0.005184 seconds
+  Import took 0.007520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken L.asset
+  artifactKey: Guid(fdc8e2476ca7b07488d5c1819ad461dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken L.asset using Guid(fdc8e2476ca7b07488d5c1819ad461dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab99a6a3b57942171424f31ca79fea44') in 0.005032 seconds
+  Import took 0.007430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken R.asset
+  artifactKey: Guid(a2482ba922cca67448818e25c7a26030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken R.asset using Guid(a2482ba922cca67448818e25c7a26030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dcd1e5faaa7d6237766793b9a4190c1') in 0.005336 seconds
+  Import took 0.007470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Slope X2 L 2.asset
+  artifactKey: Guid(95648a3f21b5cea4284a0025a3eebd56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Slope X2 L 2.asset using Guid(95648a3f21b5cea4284a0025a3eebd56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '449b478436c5807155444de13f18fcb4') in 0.004923 seconds
+  Import took 0.006942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken R.asset
+  artifactKey: Guid(a2482ba922cca67448818e25c7a26030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken R.asset using Guid(a2482ba922cca67448818e25c7a26030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dcd1e5faaa7d6237766793b9a4190c1') in 0.004644 seconds
+  Import took 0.006975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.546469 seconds.
+  path: Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Prefab
+  artifactKey: Guid(8d3b16bf124f65b49b22817d94a88022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Prefab using Guid(8d3b16bf124f65b49b22817d94a88022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3bba2fc3b7d58a18105dc8d0c52abe0') in 0.003575 seconds
+  Import took 0.006004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.262663 seconds.
+  path: Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF FX Campfire Fire.prefab
+  artifactKey: Guid(2b206c0d2afb3604183d9210be1d84ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF FX Campfire Fire.prefab using Guid(2b206c0d2afb3604183d9210be1d84ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bacec0c8ccb3b2b16833d4c5a42f81ce') in 0.006156 seconds
+  Import took 0.008382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF FX Torch Fire.prefab
+  artifactKey: Guid(4cfc0b96b77f5374a9242d6779dd65bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF FX Torch Fire.prefab using Guid(4cfc0b96b77f5374a9242d6779dd65bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c62c9076038d3b842b5eb2e031caa97') in 0.003572 seconds
+  Import took 0.006244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF FX Fire Bowl Fire.prefab
+  artifactKey: Guid(69e62f89c9d82ba4085d34eeff6f57bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF FX Fire Bowl Fire.prefab using Guid(69e62f89c9d82ba4085d34eeff6f57bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b78cd929665ba3ff7547afb2de56627') in 0.003602 seconds
+  Import took 0.005931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 185.675492 seconds.
+  path: Assets/Art Assets/Sunny Land Forest Assets/Scenes
+  artifactKey: Guid(4597dbd939d93407391cafe9674c9cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunny Land Forest Assets/Scenes using Guid(4597dbd939d93407391cafe9674c9cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee537740277204769043d13d6b1844b7') in 0.004054 seconds
+  Import took 0.006681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.101051 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/sunny land.prefab
+  artifactKey: Guid(4ba0b405400c31f4c9c6f58c5de7c517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/sunny land.prefab using Guid(4ba0b405400c31f4c9c6f58c5de7c517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d52acbac4fcf688fc2aaa9a9e832711') in 0.004966 seconds
+  Import took 0.007723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_0.asset
+  artifactKey: Guid(4a044613c2d0c6949866dfb65633c75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_0.asset using Guid(4a044613c2d0c6949866dfb65633c75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a043a484929ad3139a79918a142c09a1') in 0.007727 seconds
+  Import took 0.009631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_6.asset
+  artifactKey: Guid(f8446411d667041488089db7bd36ff5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_6.asset using Guid(f8446411d667041488089db7bd36ff5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '944fc4c15bc6517904b7647debfb0684') in 0.006065 seconds
+  Import took 0.008363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_17.asset
+  artifactKey: Guid(0905ffb28ada6ab47bfee0e951c1aed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_17.asset using Guid(0905ffb28ada6ab47bfee0e951c1aed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3788c4e105b93c71e23f78763521764e') in 0.005931 seconds
+  Import took 0.008492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_31.asset
+  artifactKey: Guid(83f0182e6dd7806418818382133eef1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_31.asset using Guid(83f0182e6dd7806418818382133eef1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7afaabdbf764b6e0c5c46890087eeaa7') in 0.005917 seconds
+  Import took 0.008334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_30.asset
+  artifactKey: Guid(ff3a3dd71bdea994ea6f349ee187e56b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_30.asset using Guid(ff3a3dd71bdea994ea6f349ee187e56b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d3353d5488145bdb3e5d0213b614fa7') in 0.005917 seconds
+  Import took 0.008088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_45.asset
+  artifactKey: Guid(b2861a3f88650e7419dceb3cd2cd049a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_45.asset using Guid(b2861a3f88650e7419dceb3cd2cd049a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bca4914ec744d8382a6debb3a6515bcf') in 0.008034 seconds
+  Import took 0.010109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_54.asset
+  artifactKey: Guid(f83d3e970dac307429628b8d74bc3d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_54.asset using Guid(f83d3e970dac307429628b8d74bc3d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd130d1146d052fb854a424f72596a246') in 0.005543 seconds
+  Import took 0.007773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_34.asset
+  artifactKey: Guid(fb305797174e17e408c4116af337ab58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_34.asset using Guid(fb305797174e17e408c4116af337ab58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fc63f9e143080d065eb3e4425c33036') in 0.006201 seconds
+  Import took 0.008338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_27.asset
+  artifactKey: Guid(a1bc92edfb371314d814cd0a0236b360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_27.asset using Guid(a1bc92edfb371314d814cd0a0236b360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df35c376037a6d4d996e053736952817') in 0.007760 seconds
+  Import took 0.010259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_41.asset
+  artifactKey: Guid(dc60c696788c4e3448d2454d86676d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_41.asset using Guid(dc60c696788c4e3448d2454d86676d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc2ccb2a61537b75cb3184aafb171374') in 0.014797 seconds
+  Import took 0.017885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_35.asset
+  artifactKey: Guid(e7f0382181e7b174bb6ef234ebacccde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_35.asset using Guid(e7f0382181e7b174bb6ef234ebacccde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccb3d72478d758f2e4c162fa670c58d1') in 0.008543 seconds
+  Import took 0.011318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_19.asset
+  artifactKey: Guid(43e7a231174269944ab68bc50037f0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_19.asset using Guid(43e7a231174269944ab68bc50037f0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e592ccf78e85e4f184c2aafc141f598') in 0.013290 seconds
+  Import took 0.015774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_44.asset
+  artifactKey: Guid(40083e97c60acce428c8fd8f41c77c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_44.asset using Guid(40083e97c60acce428c8fd8f41c77c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a28001f0d2f26715fa0fdf999b018270') in 0.007158 seconds
+  Import took 0.009543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_13.asset
+  artifactKey: Guid(df21eb7f154671d449cc417ece1250d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_13.asset using Guid(df21eb7f154671d449cc417ece1250d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d06e2d5ae334b780523338c029a00a3') in 0.006657 seconds
+  Import took 0.008922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_24.asset
+  artifactKey: Guid(1cb67dbe4878ecc4da762f12879c557f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_24.asset using Guid(1cb67dbe4878ecc4da762f12879c557f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc3604f5c7c993255c252b8955c672ca') in 0.005813 seconds
+  Import took 0.007883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_28.asset
+  artifactKey: Guid(43cd49f140270cd458426ce0b9874739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_28.asset using Guid(43cd49f140270cd458426ce0b9874739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e144db08b65efd5c236daed719c7c404') in 0.017919 seconds
+  Import took 0.020326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_67.asset
+  artifactKey: Guid(be8b286b726f5914b8ae1748d5710af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_67.asset using Guid(be8b286b726f5914b8ae1748d5710af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f35d2f94604e809721582bb1130c05cc') in 0.006035 seconds
+  Import took 0.008907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_42.asset
+  artifactKey: Guid(85df08e5d276a9c4d80bfd74ed12b280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_42.asset using Guid(85df08e5d276a9c4d80bfd74ed12b280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29c1969e1e4042fde8492bcdc80e408c') in 0.007985 seconds
+  Import took 0.010274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_66.asset
+  artifactKey: Guid(1884c072ad60a9b4c87efdb4d04f0cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_66.asset using Guid(1884c072ad60a9b4c87efdb4d04f0cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '324ac66deda70b90cdf7600fac5fcdef') in 0.006182 seconds
+  Import took 0.008758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_57.asset
+  artifactKey: Guid(4ef4e8ba879098441b4fa0b7bb10baa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_57.asset using Guid(4ef4e8ba879098441b4fa0b7bb10baa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8210cf9ec110eca71f42b80f09b3845') in 0.011628 seconds
+  Import took 0.014269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_46.asset
+  artifactKey: Guid(f7b9b623c128a274da32f7ab026b656f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_46.asset using Guid(f7b9b623c128a274da32f7ab026b656f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76f47100b17c8791e4a18537761e6e97') in 0.008134 seconds
+  Import took 0.010426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_63.asset
+  artifactKey: Guid(dd7c2798d6e3f8b48bf5803fc1061ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_63.asset using Guid(dd7c2798d6e3f8b48bf5803fc1061ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eaf1e4a02a22b3fc98a3609b5b73130') in 0.007918 seconds
+  Import took 0.010458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_38.asset
+  artifactKey: Guid(34737c69a1d7cd64a9f7e7c1ac3fbe25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_38.asset using Guid(34737c69a1d7cd64a9f7e7c1ac3fbe25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2b8b808c1ce4640c3b24c8552b92bf7') in 0.008697 seconds
+  Import took 0.010827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_4.asset
+  artifactKey: Guid(38d09633cc6619a4a850d5e4bf84138a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_4.asset using Guid(38d09633cc6619a4a850d5e4bf84138a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6128f87b6c72970172d32343d60fff5') in 0.013187 seconds
+  Import took 0.015544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_52.asset
+  artifactKey: Guid(6be518bd6998f324f9e062bffdab1d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_52.asset using Guid(6be518bd6998f324f9e062bffdab1d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39e90c2cd9c064457b2bcda8c4e97408') in 0.009794 seconds
+  Import took 0.012177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_55.asset
+  artifactKey: Guid(32091a806f29475419a1521b48514006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_55.asset using Guid(32091a806f29475419a1521b48514006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a5e796e9431265e4db118db3cea1442') in 0.010305 seconds
+  Import took 0.012789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_29.asset
+  artifactKey: Guid(fc95e6fb699d3274289da77fa445c155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_29.asset using Guid(fc95e6fb699d3274289da77fa445c155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f83ab23c6b981390e063cb0294fb1135') in 0.005707 seconds
+  Import took 0.008044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_12.asset
+  artifactKey: Guid(c5add61887712a645807359eea087382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_12.asset using Guid(c5add61887712a645807359eea087382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a603af221c2787081546a144580b6ba4') in 0.010720 seconds
+  Import took 0.012876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_2.asset
+  artifactKey: Guid(907151bc6f126ff47b655bb3e21f1c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_2.asset using Guid(907151bc6f126ff47b655bb3e21f1c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14cb82c06737d4417529eef6df9c20aa') in 0.005371 seconds
+  Import took 0.006955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_1.asset
+  artifactKey: Guid(3c0bf1884f021a14a81291a914e3bd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_1.asset using Guid(3c0bf1884f021a14a81291a914e3bd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '519384618b08765c1d52245106fb7494') in 0.006739 seconds
+  Import took 0.009061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_53.asset
+  artifactKey: Guid(a971f22a302cc8b4bbcce2b8fec0df4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_53.asset using Guid(a971f22a302cc8b4bbcce2b8fec0df4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '393852d5cf9d6f76953ac1a3989b8486') in 0.008286 seconds
+  Import took 0.010252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_61.asset
+  artifactKey: Guid(fcc1d834296d5b747b62239f05daa7fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_61.asset using Guid(fcc1d834296d5b747b62239f05daa7fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a97e567cb3e54d8eceae9620b381b1d1') in 0.006085 seconds
+  Import took 0.008836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_51.asset
+  artifactKey: Guid(8ef127353748b384faee5aa3a8122011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_51.asset using Guid(8ef127353748b384faee5aa3a8122011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d801edc1757ca246f65e95f6d0b13e0') in 0.008810 seconds
+  Import took 0.010719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_60.asset
+  artifactKey: Guid(44f3b7e2c4b9c7b43bb20b6d2d1460fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_60.asset using Guid(44f3b7e2c4b9c7b43bb20b6d2d1460fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddc20c022ba67c8338bb26e60e98d1e6') in 0.005886 seconds
+  Import took 0.008252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_3.asset
+  artifactKey: Guid(af91766b84eb90f49ad119fbc4b4046d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_3.asset using Guid(af91766b84eb90f49ad119fbc4b4046d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faa625496926fb20f6c346e27098881d') in 0.010215 seconds
+  Import took 0.013071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_25.asset
+  artifactKey: Guid(da691526b6a9d8c42abece621d53cbb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_25.asset using Guid(da691526b6a9d8c42abece621d53cbb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14d9869d45e315d66f73b622f4214cc4') in 0.005870 seconds
+  Import took 0.007913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_48.asset
+  artifactKey: Guid(5e056cd355892814eb5a811f87cf06f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_48.asset using Guid(5e056cd355892814eb5a811f87cf06f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d1b3ee19c87b49e661bf869649ffcd1') in 0.010487 seconds
+  Import took 0.012991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_26.asset
+  artifactKey: Guid(2b32e47058052404d807900e76535aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_26.asset using Guid(2b32e47058052404d807900e76535aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f77edcf640bdc6f46388d331c89af337') in 0.005992 seconds
+  Import took 0.008665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_59.asset
+  artifactKey: Guid(abe9d18129eacff4d8212f4d06c68e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_59.asset using Guid(abe9d18129eacff4d8212f4d06c68e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ecc5542cccbf02f138ee785b0b50a1f') in 0.008158 seconds
+  Import took 0.010574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_56.asset
+  artifactKey: Guid(acd85768fcf72dd4e81fc77f1f073ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_56.asset using Guid(acd85768fcf72dd4e81fc77f1f073ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '868ef743114f256a907e96b96e95197a') in 0.006826 seconds
+  Import took 0.009733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_32.asset
+  artifactKey: Guid(e5c9c06dc2dfb0a43a84b676434318ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_32.asset using Guid(e5c9c06dc2dfb0a43a84b676434318ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '962260ab0c6a406352517f3f17553223') in 0.005691 seconds
+  Import took 0.008274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_64.asset
+  artifactKey: Guid(ab2601b64fa79e2488a31a67a809222d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_64.asset using Guid(ab2601b64fa79e2488a31a67a809222d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02f205efd1cb4eabee52e6a920d385bc') in 0.006603 seconds
+  Import took 0.009332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_15.asset
+  artifactKey: Guid(dc69a3533127e06458caf8e9042b2b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_15.asset using Guid(dc69a3533127e06458caf8e9042b2b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a8e330b948ee24409fdc1d354fb7782') in 0.005586 seconds
+  Import took 0.007629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_33.asset
+  artifactKey: Guid(519a1e18468449948ac423419be25f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_33.asset using Guid(519a1e18468449948ac423419be25f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5a5bcf07e3c034a42788222c8a3cd68') in 0.005672 seconds
+  Import took 0.007442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_8.asset
+  artifactKey: Guid(578764add803a1745b0347f95c5a261a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_8.asset using Guid(578764add803a1745b0347f95c5a261a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23f7fff7b878ad4e826a5a383d283524') in 0.007844 seconds
+  Import took 0.010544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_39.asset
+  artifactKey: Guid(e036a6bd0bdb6794d88cfe8c03dfa607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_39.asset using Guid(e036a6bd0bdb6794d88cfe8c03dfa607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78368c94daa37a3f87176ea4f4cc9fd2') in 0.006191 seconds
+  Import took 0.008787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_37.asset
+  artifactKey: Guid(8db905a0c7ef2764a90398574a8e7d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_37.asset using Guid(8db905a0c7ef2764a90398574a8e7d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a75e09abbc306103bf0dab12e8d4984f') in 0.009432 seconds
+  Import took 0.011697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_7.asset
+  artifactKey: Guid(2e64d2124c5ee9e43bb7e4777d7d48cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_7.asset using Guid(2e64d2124c5ee9e43bb7e4777d7d48cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '002ac12d282f6b1798c06ae15c83f1f4') in 0.005747 seconds
+  Import took 0.008166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_50.asset
+  artifactKey: Guid(8f3e8c08bc50db646ba0df48e13a4e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_50.asset using Guid(8f3e8c08bc50db646ba0df48e13a4e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ef454778d33a50f7cce489b38e3197b') in 0.005832 seconds
+  Import took 0.007889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_14.asset
+  artifactKey: Guid(db573ee25a348fe4a85a78a5289643a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_14.asset using Guid(db573ee25a348fe4a85a78a5289643a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56ed0e4175c52fbc5591e522cd4dee79') in 0.007222 seconds
+  Import took 0.009407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_16.asset
+  artifactKey: Guid(cac33019ed2a2884b96356c390a9d25b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_16.asset using Guid(cac33019ed2a2884b96356c390a9d25b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5d51c5ae1682aefd82a44d837e93866') in 0.005832 seconds
+  Import took 0.008238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_18.asset
+  artifactKey: Guid(3f8d06f0c1163904ab46ae8457623dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_18.asset using Guid(3f8d06f0c1163904ab46ae8457623dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0627e053d6aedcd3ada748e527f29d6') in 0.005950 seconds
+  Import took 0.008152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_36.asset
+  artifactKey: Guid(89c70e52561d3bb489652289f589387a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_36.asset using Guid(89c70e52561d3bb489652289f589387a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5478fb1575eafbda059c4fb6e078f64') in 0.008222 seconds
+  Import took 0.010495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_49.asset
+  artifactKey: Guid(dd8249c0b64d8724db7a68744feb6d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_49.asset using Guid(dd8249c0b64d8724db7a68744feb6d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ca46f1795d9ce7283f81ec9bc904f26') in 0.007376 seconds
+  Import took 0.009656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_10.asset
+  artifactKey: Guid(81e4804e8af65ac44be8698cecb08ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_10.asset using Guid(81e4804e8af65ac44be8698cecb08ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91207f5c101b204be27bd67e7dbb7150') in 0.008627 seconds
+  Import took 0.011065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_47.asset
+  artifactKey: Guid(20a7b070af28e81449c12343d53520a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_47.asset using Guid(20a7b070af28e81449c12343d53520a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd010269490654f0138f49bf60e63c11') in 0.007541 seconds
+  Import took 0.009566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_62.asset
+  artifactKey: Guid(4606a31c43e42b54284873658157899e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_62.asset using Guid(4606a31c43e42b54284873658157899e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c23db43324990b4d008033c6c4704194') in 0.007943 seconds
+  Import took 0.010432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_43.asset
+  artifactKey: Guid(df77878271f709b48acb8a6bf6f890c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_43.asset using Guid(df77878271f709b48acb8a6bf6f890c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81d86d79851b382cd4fb3af21eaf8e81') in 0.006516 seconds
+  Import took 0.008872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_58.asset
+  artifactKey: Guid(42322a959db73cb41a08b185d8feb69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_58.asset using Guid(42322a959db73cb41a08b185d8feb69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71c2b4b02ea0a6a289af851366431993') in 0.009604 seconds
+  Import took 0.011519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_11.asset
+  artifactKey: Guid(c5307e43b3799f74699e5269ad4dd282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_11.asset using Guid(c5307e43b3799f74699e5269ad4dd282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfd96fa6d816b68d72baa7a8cb5297b7') in 0.006983 seconds
+  Import took 0.009182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_65.asset
+  artifactKey: Guid(395f6795d95120f468f8786df591641c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_65.asset using Guid(395f6795d95120f468f8786df591641c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb8725e6e75555a32e6f50314aba9d2') in 0.008938 seconds
+  Import took 0.010911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_9.asset
+  artifactKey: Guid(cc6754137b3bd5f42b92c3b37673faad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_9.asset using Guid(cc6754137b3bd5f42b92c3b37673faad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '367ed44524987f666c63df699b6875a1') in 0.007276 seconds
+  Import took 0.009845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_23.asset
+  artifactKey: Guid(38d2ae9a7137fd340a5f1f4cbc79fc1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_23.asset using Guid(38d2ae9a7137fd340a5f1f4cbc79fc1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed763f8279cdb4d407b8ba1422b1d72') in 0.010368 seconds
+  Import took 0.012847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_22.asset
+  artifactKey: Guid(9fbf1363ed97d3f43bef1c7853c19c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_22.asset using Guid(9fbf1363ed97d3f43bef1c7853c19c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1411b581fa7cf36ab33e1cab3d9d5b2d') in 0.005760 seconds
+  Import took 0.007975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_40.asset
+  artifactKey: Guid(a8370cafefaf56f459016a87ac0b546f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_40.asset using Guid(a8370cafefaf56f459016a87ac0b546f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66a154a0fb5f62e84eaf82e89d2024ae') in 0.007945 seconds
+  Import took 0.010135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_5.asset
+  artifactKey: Guid(1986beba3baaf4745bb0b14337c0e7c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_5.asset using Guid(1986beba3baaf4745bb0b14337c0e7c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15e367d278910c4b3a9a56600ae48ccb') in 0.005465 seconds
+  Import took 0.007713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_21.asset
+  artifactKey: Guid(e7d86fa86f0ac0d4080e3ecc5fa5ec87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_21.asset using Guid(e7d86fa86f0ac0d4080e3ecc5fa5ec87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd222af1b66145b502c1a1827416b2983') in 0.006761 seconds
+  Import took 0.008978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_20.asset
+  artifactKey: Guid(a0a7a96b6e8e55c409f9f87b6ea1ddd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Sunnyland/artwork/Environment/tile/tileset-sliced_20.asset using Guid(a0a7a96b6e8e55c409f9f87b6ea1ddd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d3d8b4b7129bbdd2b4cce67d72d7959') in 0.006019 seconds
+  Import took 0.008450 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001587 seconds.
+Registered in 0.000647 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.477 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1193 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.3 MB.
-System memory in use after: 69.3 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1659.
-Total: 1.767400 ms (FindLiveObjects: 0.199000 ms CreateObjectMapping: 0.032400 ms MarkObjects: 1.464400 ms  DeleteObjects: 0.070400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000862 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.726 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1193 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.3 MB.
-System memory in use after: 69.4 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1662.
-Total: 2.017000 ms (FindLiveObjects: 0.182600 ms CreateObjectMapping: 0.029200 ms MarkObjects: 1.734400 ms  DeleteObjects: 0.069100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 804.391006 seconds.
-  path: Assets/Scripts/CameraController.cs
-  artifactKey: Guid(a6261285e3eb3ac46969bfe030fb8546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/CameraController.cs using Guid(a6261285e3eb3ac46969bfe030fb8546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6167f7d79d02fcc0b54caf01d4a700c') in 0.004993 seconds
-  Import took 0.007408 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000981 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.753 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1193 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.3 MB.
-System memory in use after: 69.4 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1665.
-Total: 1.686800 ms (FindLiveObjects: 0.178300 ms CreateObjectMapping: 0.028300 ms MarkObjects: 1.415300 ms  DeleteObjects: 0.063700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 427.187214 seconds.
-  path: Assets/Scripts/CameraController.cs
-  artifactKey: Guid(a6261285e3eb3ac46969bfe030fb8546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/CameraController.cs using Guid(a6261285e3eb3ac46969bfe030fb8546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '828485f6dd1abd39a134bd1c4cbb6ff4') in 0.005027 seconds
-  Import took 0.007318 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 38.537405 seconds.
-  path: Assets/anim
-  artifactKey: Guid(b531adfcd82ac89469b7ac5a20d8b71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/anim using Guid(b531adfcd82ac89469b7ac5a20d8b71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '860b07f54e075aa6e08e291092beb33b') in 0.003365 seconds
-  Import took 0.005739 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000812 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.697 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1193 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.3 MB.
-System memory in use after: 69.4 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1668.
-Total: 1.546100 ms (FindLiveObjects: 0.170600 ms CreateObjectMapping: 0.028100 ms MarkObjects: 1.290600 ms  DeleteObjects: 0.055800 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.214995 seconds.
-  path: Assets/Prefabs/BasicRoom.prefab
-  artifactKey: Guid(c659b761934cf55498e6fb235797f2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/BasicRoom.prefab using Guid(c659b761934cf55498e6fb235797f2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e395cdc86d5802c0424d58b50b769b99') in 0.060516 seconds
-  Import took 0.063046 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.490729 seconds.
-  path: Assets/Prefabs/BasicRoom.prefab
-  artifactKey: Guid(c659b761934cf55498e6fb235797f2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/BasicRoom.prefab using Guid(c659b761934cf55498e6fb235797f2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce5d16703570e44dd8f733545f71898f') in 0.024229 seconds
-  Import took 0.030691 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.383632 seconds.
-  path: Assets/Prefabs/BasicRoom.prefab
-  artifactKey: Guid(c659b761934cf55498e6fb235797f2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/BasicRoom.prefab using Guid(c659b761934cf55498e6fb235797f2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50b6400686ae209390c4cf7c7bd76865') in 0.017037 seconds
-  Import took 0.020857 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.026901 seconds.
-  path: Assets/Prefabs/BasicRoom.prefab
-  artifactKey: Guid(c659b761934cf55498e6fb235797f2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/BasicRoom.prefab using Guid(c659b761934cf55498e6fb235797f2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abebb556ad301a306733e16ea2552a15') in 0.017104 seconds
-  Import took 0.020349 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.162341 seconds.
-  path: Assets/Prefabs/BasicRoom.prefab
-  artifactKey: Guid(c659b761934cf55498e6fb235797f2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/BasicRoom.prefab using Guid(c659b761934cf55498e6fb235797f2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccbd9d2060dd28b2df84bedbfcbb4211') in 0.015831 seconds
-  Import took 0.018600 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.838525 seconds.
-  path: Assets/Prefabs/BasicRoom.prefab
-  artifactKey: Guid(c659b761934cf55498e6fb235797f2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/BasicRoom.prefab using Guid(c659b761934cf55498e6fb235797f2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a78b0bae3f2d671e6ae0d7344bafa0b1') in 0.021970 seconds
-  Import took 0.025295 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.942630 seconds.
-  path: Assets/Prefabs/BasicRoom.prefab
-  artifactKey: Guid(c659b761934cf55498e6fb235797f2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/BasicRoom.prefab using Guid(c659b761934cf55498e6fb235797f2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7864fd9da0c392d57afdc969af57ff13') in 0.013112 seconds
-  Import took 0.015700 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000802 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.724 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1193 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.3 MB.
-System memory in use after: 69.4 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1672.
-Total: 1.634100 ms (FindLiveObjects: 0.179600 ms CreateObjectMapping: 0.027800 ms MarkObjects: 1.364400 ms  DeleteObjects: 0.061100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000841 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.739 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1193 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.3 MB.
-System memory in use after: 69.4 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1675.
-Total: 1.807000 ms (FindLiveObjects: 0.197500 ms CreateObjectMapping: 0.029000 ms MarkObjects: 1.501600 ms  DeleteObjects: 0.076800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000891 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.718 seconds
-Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1193 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.3 MB.
-System memory in use after: 69.4 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1678.
-Total: 1.633500 ms (FindLiveObjects: 0.181700 ms CreateObjectMapping: 0.028000 ms MarkObjects: 1.365300 ms  DeleteObjects: 0.057500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000826 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.721 seconds
+- Completed reload, in  0.677 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1193 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.4 MB.
-System memory in use after: 69.4 MB.
+Unloading 1195 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.9 MB.
+System memory in use after: 70.0 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1681.
-Total: 1.660800 ms (FindLiveObjects: 0.176800 ms CreateObjectMapping: 0.027400 ms MarkObjects: 1.390300 ms  DeleteObjects: 0.064900 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1899.
+Total: 1.768500 ms (FindLiveObjects: 0.194900 ms CreateObjectMapping: 0.029300 ms MarkObjects: 1.476700 ms  DeleteObjects: 0.066100 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000884 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.709 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1193 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.4 MB.
-System memory in use after: 69.4 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1684.
-Total: 1.604000 ms (FindLiveObjects: 0.186400 ms CreateObjectMapping: 0.032100 ms MarkObjects: 1.326400 ms  DeleteObjects: 0.058200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 266.571856 seconds.
-  path: Assets/Prefabs/BasicRoom.prefab
-  artifactKey: Guid(c659b761934cf55498e6fb235797f2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/BasicRoom.prefab using Guid(c659b761934cf55498e6fb235797f2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54e43648b02112dd4d7eec272d635b26') in 0.060879 seconds
-  Import took 0.063765 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 46.132508 seconds.
-  path: Assets/Prefabs/BasicRoom.prefab
-  artifactKey: Guid(c659b761934cf55498e6fb235797f2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/BasicRoom.prefab using Guid(c659b761934cf55498e6fb235797f2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae5378054ff2eb943773f9a5def3c9c9') in 0.020463 seconds
-  Import took 0.023970 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000845 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.696 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1193 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.4 MB.
-System memory in use after: 69.5 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1688.
-Total: 1.750800 ms (FindLiveObjects: 0.171000 ms CreateObjectMapping: 0.031200 ms MarkObjects: 1.480000 ms  DeleteObjects: 0.067700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 52.733083 seconds.
-  path: Assets/Prefabs/BasicRoom.prefab
-  artifactKey: Guid(c659b761934cf55498e6fb235797f2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/BasicRoom.prefab using Guid(c659b761934cf55498e6fb235797f2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b0c5e23f2099907712877b9f1771ab') in 0.058336 seconds
-  Import took 0.060706 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.933390 seconds.
-  path: Assets/Prefabs/BasicRoom.prefab
-  artifactKey: Guid(c659b761934cf55498e6fb235797f2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/BasicRoom.prefab using Guid(c659b761934cf55498e6fb235797f2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99f05dbe0f816a2604d943c21c6e3f40') in 0.024805 seconds
-  Import took 0.030133 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.879796 seconds.
-  path: Assets/Prefabs/BasicRoom.prefab
-  artifactKey: Guid(c659b761934cf55498e6fb235797f2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/BasicRoom.prefab using Guid(c659b761934cf55498e6fb235797f2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd34a3b22e53f69aa2b69316bfcdc63c8') in 0.024574 seconds
-  Import took 0.031322 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001372 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.733 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1193 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.4 MB.
-System memory in use after: 69.5 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1692.
-Total: 1.712300 ms (FindLiveObjects: 0.177000 ms CreateObjectMapping: 0.028300 ms MarkObjects: 1.438400 ms  DeleteObjects: 0.067100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 104.553742 seconds.
-  path: Assets/Prefabs/BasicRoom.prefab
-  artifactKey: Guid(c659b761934cf55498e6fb235797f2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/BasicRoom.prefab using Guid(c659b761934cf55498e6fb235797f2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '140c4f0f5ed516b7435ff606a8d07b1c') in 0.075301 seconds
-  Import took 0.078361 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.258751 seconds.
-  path: Assets/Prefabs/BasicRoom.prefab
-  artifactKey: Guid(c659b761934cf55498e6fb235797f2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/BasicRoom.prefab using Guid(c659b761934cf55498e6fb235797f2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b088cc07bf946c8063993c2aeb6371e8') in 0.021211 seconds
-  Import took 0.026013 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000805 seconds.
+Registered in 0.000828 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.760 seconds
+- Completed reload, in  0.673 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1193 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.4 MB.
-System memory in use after: 69.5 MB.
+Unloading 1195 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.9 MB.
+System memory in use after: 70.0 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1696.
-Total: 1.773700 ms (FindLiveObjects: 0.206300 ms CreateObjectMapping: 0.028200 ms MarkObjects: 1.466600 ms  DeleteObjects: 0.071200 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1902.
+Total: 1.923200 ms (FindLiveObjects: 0.188700 ms CreateObjectMapping: 0.030100 ms MarkObjects: 1.640400 ms  DeleteObjects: 0.062800 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001560 seconds.
+Registered in 0.000730 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.744 seconds
+- Completed reload, in  0.684 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1193 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.4 MB.
-System memory in use after: 69.5 MB.
+Unloading 1195 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.9 MB.
+System memory in use after: 70.0 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1699.
-Total: 2.119500 ms (FindLiveObjects: 0.243600 ms CreateObjectMapping: 0.060200 ms MarkObjects: 1.748400 ms  DeleteObjects: 0.066100 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1905.
+Total: 1.954500 ms (FindLiveObjects: 0.201900 ms CreateObjectMapping: 0.030300 ms MarkObjects: 1.661400 ms  DeleteObjects: 0.059300 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001270 seconds.
+Registered in 0.000592 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.703 seconds
-Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1193 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.4 MB.
-System memory in use after: 69.5 MB.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.683 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1195 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.9 MB.
+System memory in use after: 70.0 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1702.
-Total: 1.609400 ms (FindLiveObjects: 0.184500 ms CreateObjectMapping: 0.029600 ms MarkObjects: 1.335400 ms  DeleteObjects: 0.058800 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1908.
+Total: 1.842700 ms (FindLiveObjects: 0.199800 ms CreateObjectMapping: 0.029600 ms MarkObjects: 1.536400 ms  DeleteObjects: 0.075400 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001664 seconds.
+Registered in 0.000727 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.705 seconds
+- Completed reload, in  0.659 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1193 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.4 MB.
-System memory in use after: 69.5 MB.
+Unloading 1195 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.9 MB.
+System memory in use after: 70.0 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1705.
-Total: 1.777600 ms (FindLiveObjects: 0.198900 ms CreateObjectMapping: 0.031400 ms MarkObjects: 1.483300 ms  DeleteObjects: 0.062400 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1911.
+Total: 1.964500 ms (FindLiveObjects: 0.278900 ms CreateObjectMapping: 0.040500 ms MarkObjects: 1.578600 ms  DeleteObjects: 0.065000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000705 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.683 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1195 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.9 MB.
+System memory in use after: 70.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1914.
+Total: 1.902900 ms (FindLiveObjects: 0.243800 ms CreateObjectMapping: 0.029700 ms MarkObjects: 1.569200 ms  DeleteObjects: 0.059200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000723 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.673 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1195 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.0 MB.
+System memory in use after: 70.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1917.
+Total: 1.786200 ms (FindLiveObjects: 0.220700 ms CreateObjectMapping: 0.029200 ms MarkObjects: 1.468300 ms  DeleteObjects: 0.066500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000715 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.662 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1195 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.0 MB.
+System memory in use after: 70.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1920.
+Total: 1.949500 ms (FindLiveObjects: 0.326200 ms CreateObjectMapping: 0.032000 ms MarkObjects: 1.531800 ms  DeleteObjects: 0.057900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000698 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.686 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1195 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.0 MB.
+System memory in use after: 70.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1923.
+Total: 1.883600 ms (FindLiveObjects: 0.228500 ms CreateObjectMapping: 0.031400 ms MarkObjects: 1.552900 ms  DeleteObjects: 0.069600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000684 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.653 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1195 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.0 MB.
+System memory in use after: 70.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1926.
+Total: 1.851500 ms (FindLiveObjects: 0.187800 ms CreateObjectMapping: 0.030700 ms MarkObjects: 1.554900 ms  DeleteObjects: 0.077300 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
